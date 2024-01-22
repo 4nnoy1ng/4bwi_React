@@ -1,13 +1,15 @@
+import React from "react";
 import PeopleContainer from "./components/PeopleContainer";
-import Button from "./components/Button";
-import List from "./components/List";
+import Card from "components/Card.";
+import Button from "components/Button";
 
 function App() {
   return (
     <div className="flex-row">
       <PeopleContainer />
+      <Card name="" title="" imageUri="" />
+
       <Button />
-      <List />
     </div>
   );
 }
