@@ -14,7 +14,7 @@ export default function PeopleContainer() {
 
   return (
     <div>
-      <h1>People</h1>
+      <h1>sPeople</h1>
       <div className="w-40">
         {people.map((person) => {
           return (
