@@ -15,7 +15,7 @@ export default function PeopleContainer() {
   return (
     <div>
       <h1>sPeople</h1>
-      <div className="w-40">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {people.map((person) => {
           return (
             <Card
