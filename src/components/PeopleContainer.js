@@ -16,13 +16,14 @@ export default function PeopleContainer() {
     <div>
       <h1>People</h1>
       <div className="w-40">
-        {people.map(person => {
+        {people.map((person) => {
           return (
             <Card
               name={person.name}
               imageUri={person.avatar}
               title={person.jobtitle}
             />
+          );
         })}
       </div>
     </div>
