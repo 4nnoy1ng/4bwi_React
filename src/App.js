@@ -1,14 +1,24 @@
 import React from "react";
+import Bundesliga from "components/pages/Bundesliga";
+import Table from "components/pages/Table";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: (
+      <div>
+        <Bundesliga />
+      </div>
+    ),
   },
   {
-    path: "/friends",
-    element: <div>Hello My Friend!</div>,
+    path: "/table",
+    element: (
+      <div>
+        <Table />
+      </div>
+    ),
   },
 ]);
 
