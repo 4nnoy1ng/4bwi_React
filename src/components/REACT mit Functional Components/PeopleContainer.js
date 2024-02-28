@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Card from "components/Card";
+import Card from "components/REACT mit Functional Components/Card";
 
 export default function PeopleContainer() {
   const [people, setPeople] = useState([]);

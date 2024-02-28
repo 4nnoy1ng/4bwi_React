@@ -1,14 +1,19 @@
 import React from "react";
-import PeopleContainer from "./components/PeopleContainer";
-import Card from "components/Card";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello world!</div>,
+  },
+  {
+    path: "/friends",
+    element: <div>Hello My Friend!</div>,
+  },
+]);
 
 function App() {
-  return (
-    <div className="flex-row">
-      <PeopleContainer />
-      <Card name="" title="" imageUri="" />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
