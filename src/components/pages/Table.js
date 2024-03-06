@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import background from "../atoms/images/background.jpg";
+import styles from "./Bundesliga.css";
 
 export default function Bundesliga() {
   return (

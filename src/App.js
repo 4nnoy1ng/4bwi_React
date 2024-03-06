@@ -1,5 +1,5 @@
 import React from "react";
-import Bundesliga from "components/pages/Bundesliga";
+import Bundesliga from "./components/pages/Bundesliga";
 import Table from "components/pages/Table";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
