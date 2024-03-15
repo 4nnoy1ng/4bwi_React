@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Table.module.css";
 import background from "../atoms/images/background.jpg";
 import styless from "./Bundesliga.module.css";
+import TableRow from "./TableRow";
 
 export default function Bundesliga() {
   const [footballTable, setFootballTable] = useState([]);
@@ -41,10 +42,7 @@ export default function Bundesliga() {
 
         <div className={styles.Tabellen}>
           {footballTable.map((team) => (
-            <div>
-              {team.teamName}, {team.matches}, {team.won}, {team.draw},{" "}
-              {team.lost}, {team.goals}, {team.points}
-            </div>
+            <TableRow team={team} />
           ))}
         </div>
       </div>
