@@ -7,8 +7,7 @@
 .wrapper {
   height: 100vh;
   width: 100vw;
-  background: url(image.png);
-  background-image: url("./images/background.jpg");
+  background-image: url("../atoms/images/background.jpg");
   overflow-x: hidden; /*Irgendwas ist dem wrapper zugroß - Kein Plan was*/
 }
 
@@ -51,7 +50,7 @@
   top: 150px;
   left: 300px;
   display: grid;
-  grid-template-columns: 40% 15% 2% 2% 5% 10% 10%;
+  grid-template-columns: 30% 15% 2% 2% 5% 10% 10%;
   grid-template-rows: 50px;
 }
 
